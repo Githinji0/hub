@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-image: url(javier-miranda-Jn2EaLLYZfY-unsplash.jpg);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bx {
+    background-color: rgba(9, 9, 83, 0.726);
+    margin-top: 300px;
+    border-radius: 10px;
+
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}

@@ -1,0 +1,53 @@
+body {
+    background-image: url(daniel-jNl1EaMDfbk-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    flex-shrink: 100px;
+    
+    
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+
+}
+.box {
+    background-color: black;
+    box-shadow: rgba(26, 15, 34, 0.705) -15px 12px 6px 3px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 450px;
+    border-radius: 20px;
+    margin: 100px;
+    flex: content;
+    min-width: 100px;
+
+}
+
+button {
+    height: 30px;
+    border-right: none;
+    
+}
+
+.main {
+    align-items: center;
+    display: flexbox;
+}
+
+.phone-no {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin: 35px;
+}
+
+.butn {
+    height: 25px;
+    width: 20px;
+    margin-left: 0;
+    
+}
