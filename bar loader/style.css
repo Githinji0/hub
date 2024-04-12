@@ -1,0 +1,36 @@
+body {
+    background-color: #f5f1f1;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader-bar {
+    height: 20px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.loader-bar .fill {
+    height: 100%;
+    width: 0%;
+    background-color: #ff000096;
+    animation: fillUp 3s linear;
+}
+@keyframes fillUp {
+    0% {width: 0%;}
+    50% {width: 50%;}
+    100% {width: 100%;}
+}
+h2 {
+    font-family: poppins;
+    font-size: 17px;
+    letter-spacing: 1px;
+    opacity: 0;
+    animation: showText 3s ease-in-out;
+}
+@keyframes showText {
+    0%{opacity:1;}
+    90%{opacity:1;}
+}
